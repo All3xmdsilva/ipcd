@@ -158,3 +158,15 @@ footer {
     text-align: center;
     font-size: 14px;
 }
+
+/* media queries**/
+
+@media (min-width: 700px){
+    :root {
+        --bgurl: url(./assets/assets/bg-desktop-dark.jpg);
+    }
+
+    .light {
+        --bg-url: url(assets/assets/bck.darck-mob.png);
+    }
+}
