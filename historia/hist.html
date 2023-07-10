@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="">
+<html lang="pt-br" class="light">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -10,19 +10,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/assets/avatar-darck.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css" />
-    <title>DevLinks</title>
+    <title>IPCD</title>
   </head>
   <body>
-    <div id="container1">
+    <!--Conteúdos internos da container-->
+    <div id="container">
       <div id="profile">
         <img
-          src="./assets/assets/avatar-dark.png"
+          src="./assets/assets/avatar-darck.png"
           alt="IPCD"
         />
-        <p>@IP-O CORDEIRO DE DEUS</p>
+        <p>@IP - O CORDEIRO DE DEUS</p>
       </div>
-      <div id="switch" onclick="toggleMode()">
+
+      <!--Switch-->
+      <div id="switch" onclick="toggleMode()">   
         <button>
 
         </button>
@@ -30,45 +34,44 @@
           
         </span>
       </div>
+
+      <!--Links de navegação-->
       <ul>
         <li>
-          <a href="index.html">Home</a>
+          <a href="../index.html">Home</a>
         </li>
         <li>
-          <a href="./">História</a>
+          <a href="./historia/hist.html">História</a>
         </li>
         <li>
-          <a href="https://github.com/All3xmdsilva" target="_blank"
-            >Ver meu portfólio</a
-          >
+          <a href="./portfolio/port.html" target="_blank">Portfólio</a>
         </li>
         <li>
-          <a href="https://rocketseat.com.br/explorer" target="_blank"
-            >Conheça o Explorer</a
-          >
+          <a href="./eventos/event.html" target="_blank">Eventos</a>
         </li>
       </ul>
+      <!--Links sociias de contato-->
       <div id="social-links">
-        <a href="https://github.com/Alexmdsilva" target="_blank">
+        <a href="https://github.com/#" target="_blank">
           <ion-icon name="logo-github"></ion-icon>
         </a>
 
-        <a href="https://instagram.com/Alexmdsilva" target="_blank">
+        <a href="https://instagram.com/#" target="_blank">
           <ion-icon name="logo-instagram"></ion-icon>
         </a>
 
-        <a href="https://youtube.com/Alexmdsilva" target="_blank">
+        <a href="https://youtube.com/#" target="_blank">
           <ion-icon name="logo-youtube"></ion-icon>
         </a>
 
         <a
-          href="https://www.linkedin.com/in/alex-moreira-da-silva-765580148"
+          href="https://www.linkedin.com/in/#"
           target="_blank"
         >
           <ion-icon name="logo-linkedin"></ion-icon>
         </a>
       </div>
-
+      <!--Rodapé-->
       <footer>
         Feito com ♥ pela Rocketseat
         <a href="https://rocketseat.com.br/">Rocketseat</a>
@@ -83,6 +86,7 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
+
   </body>
 </html>
