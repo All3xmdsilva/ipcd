@@ -39,4 +39,5 @@ Esse projeto não está sob a licença MIT.
 
 ---
 
-Feito para teste de apresentação.
+Atualização feita no styel da página historia, mudado título para hist.css...
+Também atualizado imagem apres-2.jpg na página historia hist.html.
